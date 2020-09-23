@@ -37,7 +37,7 @@ if [ -z ${SITENAME} ]; then
   exit 0
 else
   # Resolve location of log files
-  if [[ $PWD =~ /wp-content/ ]]; then
+  if [[ $PWD =~ /wordpress/ ]]; then
     # Wordpress site
     logpaths=($SUBPATHS_WORDPRESS)
   else
